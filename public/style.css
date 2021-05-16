@@ -1,0 +1,22 @@
+/* .example-appear{
+   opacity: 0.04;
+}
+.example-appear.example-appear-active{
+   opacity: 2;
+   transition: opacity 5s ease-in ;
+} */
+.example-enter{
+   opacity: 0.04;
+}
+.example-enter.example-enter-active{
+   opacity: 2;
+   transition: opacity 5s ease-in ;
+}
+.example-leave{
+   opacity: 1;
+
+}
+.example-leave.example-leave-active{
+   opacity: .04;
+   transition: opacity 5s ease-in ;
+}
